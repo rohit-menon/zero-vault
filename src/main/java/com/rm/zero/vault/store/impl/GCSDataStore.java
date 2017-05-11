@@ -12,6 +12,12 @@ import com.rm.zero.vault.store.model.GCSDataObject;
  *
  */
 public class GCSDataStore extends DataStore<GCSDataObject>{
+	
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public GCSDataObject getObject() {
