@@ -13,6 +13,8 @@ import java.util.List;
  */
 public abstract class DataStore<T extends DataObject> {
 	
+	public abstract void init();
+	
 	public abstract T getObject();
 	
 	public abstract void putObject(T t);
